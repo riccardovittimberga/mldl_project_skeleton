@@ -1,5 +1,6 @@
 from data.load import train_loader
 from models.lab2_convolutional import model
+import os
 
 
 def train(epoch, model, train_loader, criterion, optimizer):
