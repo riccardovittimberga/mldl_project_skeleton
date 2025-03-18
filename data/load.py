@@ -1,5 +1,6 @@
 from torchvision.datasets import ImageFolder
 import torchvision.transforms as T
+import os
 
 with open('tiny-imagenet/tiny-imagenet-200/val/val_annotations.txt') as f:
     for line in f:
