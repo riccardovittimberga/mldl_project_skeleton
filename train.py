@@ -1,5 +1,5 @@
 from data.load import train_loader
-from models.lab2_convolutional import model
+from models.covolutional_lab_2.py import model
 import os
 
 
