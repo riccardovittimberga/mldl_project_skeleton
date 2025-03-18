@@ -1,6 +1,5 @@
 torch
 torchvision
 tqdm
-os
 shutil
 
