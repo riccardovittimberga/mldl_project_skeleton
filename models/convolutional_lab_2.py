@@ -1,4 +1,3 @@
-import torch
 from torch import nn
 
 # Define the custom neural network
@@ -48,3 +47,6 @@ class CustomNet(nn.Module):
         x = self.linear_relu_stack(x)
 
         return x
+    
+
+model = CustomNet().to(device)
