@@ -1,4 +1,5 @@
 from torch import nn
+import os
 
 # Define the custom neural network
 class CustomNet(nn.Module):
